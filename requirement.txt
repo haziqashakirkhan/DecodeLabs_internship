@@ -1,0 +1,3 @@
+pandas #for data analysis
+numpy #to perform numerical operations
+openpyxl #to view excelsheets and work on them
