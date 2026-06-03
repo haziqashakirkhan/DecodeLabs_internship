@@ -1,6 +1,6 @@
-# 🛒 Online Store Orders Dataset – Data Science Internship Project by DECODELABS
+#  Online Store Orders Dataset – Data Science Internship Project by DECODELABS
 
-## 📌 Project Overview
+##  Project Overview
 This project is part of a Data Science internship task focused on analyzing an **Online Store Orders Dataset** using Python.  
 The main goal is to perform **data cleaning, exploratory data analysis (EDA), and data visualization** to extract meaningful business insights from the dataset.
 
@@ -8,11 +8,11 @@ No machine learning model was trained due to low performance caused by limited f
 
 ---
 
-## 📂 Dataset Information
+##  Dataset Information
 
 The dataset contains online store transaction records.
 
-### 🔑 Key Features:
+###  Key Features:
 - **OrderID** → Unique identifier for each order  
 - **Date** → Date of purchase  
 - **CustomerID** → Unique customer identifier  
@@ -23,7 +23,7 @@ The dataset contains online store transaction records.
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Load and understand the dataset  
 - Clean and preprocess raw data  
@@ -35,7 +35,7 @@ The dataset contains online store transaction records.
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing
+##  Data Cleaning & Preprocessing
 
 The following steps were performed:
 
@@ -48,7 +48,7 @@ The following steps were performed:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The dataset was analyzed to answer important business questions:
 
@@ -60,27 +60,27 @@ The dataset was analyzed to answer important business questions:
 
 ---
 
-## 📈 Data Visualizations
+##  Data Visualizations
 
 The following visualizations were used:
 
-- 📊 Bar charts → Top-selling products  
-- 📈 Line plots → Sales trends over time  
-- 📦 Histograms → Distribution of quantity and price  
-- 🔥 Heatmaps → Correlation between numerical features  
-- 🥧 Pie charts → Product distribution  
+-  Bar charts → Top-selling products  
+-  Line plots → Sales trends over time  
+-  Histograms → Distribution of quantity and price  
+-  Heatmaps → Correlation between numerical features  
+-  Pie charts → Product distribution  
 
 These visualizations helped in understanding customer behavior and sales performance.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
-- Python 🐍  
+- Python   
 - Pandas – Data manipul
 ---
 
-## 📌 Key Insights
+##  Key Insights
 
 - A small number of products generate most of the revenue  
 - Sales show variation across time periods  
@@ -90,7 +90,7 @@ These visualizations helped in understanding customer behavior and sales perform
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Improve dataset quality for machine learning modeling  
 - Add customer segmentation using clustering  
@@ -99,14 +99,14 @@ These visualizations helped in understanding customer behavior and sales perform
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Data Science Internship Project**  
 Developed using Python for learning and exploratory data analysis.
 
 ---
 
-## ⭐ Conclusion
+##  Conclusion
 
 This project demonstrates strong skills in **data cleaning, analysis, and visualization**, even without machine learning.  
 The focus was on extracting meaningful insights and understanding real-world business data patterns.ation  
@@ -116,7 +116,7 @@ The focus was on extracting meaningful insights and understanding real-world bus
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 online-store-orders-project/
 │
 ├── data/ # Dataset file (CSV/Excel)
