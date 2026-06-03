@@ -1,4 +1,4 @@
-# 🛒 Online Store Orders Dataset – Data Science Internship Project
+# 🛒 Online Store Orders Dataset – Data Science Internship Project by DECODELABS
 
 ## 📌 Project Overview
 This project is part of a Data Science internship task focused on analyzing an **Online Store Orders Dataset** using Python.  
