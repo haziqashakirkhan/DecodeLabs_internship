@@ -76,9 +76,26 @@ These visualizations helped in understanding customer behavior and sales perform
 
 ##  Technologies Used
 
-- Python   
-- Pandas – Data manipul
+- Python 🐍  
+- Pandas – Data manipulation  
+- NumPy – Numerical operations  
+- Matplotlib – Data visualization  
+- Seaborn – Statistical visualization  
+
 ---
+##  Project Structure
+online-store-orders-project/
+│
+
+├──data/ # Dataset file (CSV/Excel)
+
+├── notebooks/ # Jupyter notebook analysis
+
+├── visuals/ # Charts and plots
+
+├── README.md # Project documentation
+
+└── requirements.txt # Required libraries
 
 ##  Key Insights
 
@@ -116,14 +133,7 @@ The focus was on extracting meaningful insights and understanding real-world bus
 
 ---
 
-##  Project Structure
-online-store-orders-project/
-│
-├── data/ # Dataset file (CSV/Excel)
-├── notebooks/ # Jupyter notebook analysis
-├── visuals/ # Charts and plots
-├── README.md # Project documentation
-└── requirements.txt # Required libraries
+
 
 
 
