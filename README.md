@@ -6,8 +6,6 @@
 ![Type](https://img.shields.io/badge/Analysis-Data%20Science-purple)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-# 🛒 Online Store Orders Analysis | Data Science Internship Project
-
 ## Overview
 
 This project presents a comprehensive analysis of an Online Store Orders dataset as part of a Data Science Internship. The objective was to transform raw transactional data into actionable business insights through data cleaning, exploratory data analysis (EDA), and visualization techniques.
