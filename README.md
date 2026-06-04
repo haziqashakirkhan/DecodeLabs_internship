@@ -1,140 +1,185 @@
-#  Online Store Orders Dataset – Data Science Internship Project by DECODELABS
+#  Online Store Orders Dataset – Data Science Internship Project
 
-##  Project Overview
-This project is part of a Data Science internship task focused on analyzing an **Online Store Orders Dataset** using Python.  
-The main goal is to perform **data cleaning, exploratory data analysis (EDA), and data visualization** to extract meaningful business insights from the dataset.
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-EDA-orange?logo=pandas)
+![Status](https://img.shields.io/badge/Project-Completed-green)
+![Type](https://img.shields.io/badge/Analysis-Data%20Science-purple)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-No machine learning model was trained due to low performance caused by limited feature quality and dataset constraints. Instead, the focus was kept on **strong EDA and business insights**.
+# 🛒 Online Store Orders Analysis | Data Science Internship Project
 
----
+## Overview
 
-##  Dataset Information
+This project presents a comprehensive analysis of an Online Store Orders dataset as part of a Data Science Internship. The objective was to transform raw transactional data into actionable business insights through data cleaning, exploratory data analysis (EDA), and visualization techniques.
 
-The dataset contains online store transaction records.
-
-###  Key Features:
-- **OrderID** → Unique identifier for each order  
-- **Date** → Date of purchase  
-- **CustomerID** → Unique customer identifier  
-- **Product** → Name of purchased product  
-- **Quantity** → Number of units ordered  
-- **UnitPrice** → Price per unit  
-- **TotalPrice** → Total order value (calculated feature)
+The project demonstrates practical skills in data preprocessing, statistical analysis, and data storytelling using Python and industry-standard data science libraries.
 
 ---
 
-##  Project Objectives
+## Project Objectives
 
-- Load and understand the dataset  
-- Clean and preprocess raw data  
-- Handle missing values and duplicates  
-- Perform exploratory data analysis (EDA)  
-- Identify sales patterns and customer behavior  
-- Discover top-performing products  
-- Visualize key business insights  
-
----
-
-##  Data Cleaning & Preprocessing
-
-The following steps were performed:
-
-- Checked and handled missing values using `isnull().sum()`  
-- Removed duplicate entries  
-- Converted **Date** column to datetime format  
-- Created a new feature: **TotalPrice = Quantity × UnitPrice**  
-- Ensured correct data types for analysis  
-- Prepared data for visualization  
+- Understand the structure and quality of the dataset.
+- Clean and preprocess raw transactional data.
+- Perform exploratory data analysis (EDA).
+- Identify sales trends and customer purchasing patterns.
+- Analyze product performance and revenue contribution.
+- Create informative visualizations to support business decision-making.
 
 ---
 
-## Exploratory Data Analysis (EDA)
+## Dataset Description
 
-The dataset was analyzed to answer important business questions:
+The dataset contains records of customer purchases made through an online store.
 
-- Which products generate the highest revenue?  
-- What are the top-selling products?  
-- How do sales vary over time?  
-- Which customers contribute the most revenue?  
-- What is the relationship between quantity and total sales?  
+### Features
 
----
-
-##  Data Visualizations
-
-The following visualizations were used:
-
--  Bar charts → Top-selling products  
--  Line plots → Sales trends over time  
--  Histograms → Distribution of quantity and price  
--  Heatmaps → Correlation between numerical features  
--  Pie charts → Product distribution  
-
-These visualizations helped in understanding customer behavior and sales performance.
+| Feature | Description |
+|----------|------------|
+| OrderID | Unique identifier for each order |
+| Date | Date of transaction |
+| CustomerID | Unique customer identifier |
+| Product | Product purchased |
+| Quantity | Number of units ordered |
+| UnitPrice | Price per unit |
+| TotalPrice | Total revenue generated from an order |
 
 ---
 
-##  Technologies Used
+## Data Preprocessing
 
-- Python 🐍  
-- Pandas – Data manipulation  
-- NumPy – Numerical operations  
-- Matplotlib – Data visualization  
-- Seaborn – Statistical visualization  
+To ensure data quality and reliability, the following preprocessing steps were performed:
+
+- Inspected dataset structure and data types
+- Checked for missing values and inconsistencies
+- Removed duplicate records
+- Converted date columns into appropriate datetime formats
+- Created derived features such as Total Revenue
+- Validated numerical and categorical data for analysis
 
 ---
-##  Project Structure
-online-store-orders-project/
+
+## Exploratory Data Analysis
+
+The analysis focused on answering key business questions:
+
+### Sales Performance
+- What products generate the highest revenue?
+- Which products are purchased most frequently?
+
+### Customer Insights
+- Who are the highest-value customers?
+- How do purchasing patterns vary among customers?
+
+### Revenue Analysis
+- How is revenue distributed across products?
+- What factors contribute most to total sales?
+
+### Trend Analysis
+- How do sales fluctuate over time?
+- Are there observable growth or decline patterns?
+
+---
+
+## Visualizations
+
+The project includes various visualizations to communicate findings effectively:
+
+- Product Sales Analysis
+- Revenue Distribution
+- Sales Trends Over Time
+- Quantity Distribution
+- Correlation Heatmap
+- Customer Purchase Analysis
+
+### Top Selling Products
+![Top Products](visuals/top_products.png)
+
+### Sales Trend Analysis
+![Sales Trend](visuals/sales_trend.png)
+
+### Revenue Distribution
+![Revenue Distribution](visuals/revenue_distribution.png)
+
+### Correlation Heatmap
+![Heatmap](visuals/heatmap.png)
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## Project Structure
+
+```text
+online-store-orders-analysis/
 │
-
-├──data/ # Dataset file (CSV/Excel)
-
-├── notebooks/ # Jupyter notebook analysis
-
-├── visuals/ # Charts and plots
-
-├── README.md # Project documentation
-
-└── requirements.txt # Required libraries
-
-##  Key Insights
-
-- A small number of products generate most of the revenue  
-- Sales show variation across time periods  
-- Certain products consistently perform better than others  
-- Customer purchasing patterns help identify high-value segments  
-- Quantity directly impacts total revenue  
+├── data/
+│   └── Online-Store-Orders.xlsx
+│
+├── notebooks/
+│   └── Online_Store_Analysis.ipynb
+│
+├── visuals/
+│   ├── sales_trend.png
+│   ├── top_products.png
+│   ├── revenue_distribution.png
+│   └── heatmap.png
+│
+├── README.md
+└── requirements.txt
+```
 
 ---
 
-##  Future Improvements
+## Key Findings
 
-- Improve dataset quality for machine learning modeling  
-- Add customer segmentation using clustering  
-- Build interactive dashboard using Power BI or Tableau  
-- Extend analysis with time-series forecasting  
-
----
-
-##  Author
-
-**Data Science Internship Project**  
-Developed using Python for learning and exploratory data analysis.
+- A small number of products contribute significantly to overall revenue.
+- Customer purchasing behavior varies considerably across the dataset.
+- Revenue is strongly influenced by both product pricing and order quantity.
+- Visual analysis reveals meaningful sales patterns that can support business decisions.
+- Certain products consistently outperform others in terms of sales and revenue generation.
 
 ---
 
-##  Conclusion
+## Skills Demonstrated
 
-This project demonstrates strong skills in **data cleaning, analysis, and visualization**, even without machine learning.  
-The focus was on extracting meaningful insights and understanding real-world business data patterns.ation  
-- NumPy – Numerical operations  
-- Matplotlib – Data visualization  
-- Seaborn – Statistical visualization  
+- Data Cleaning and Preparation
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Business Insight Generation
+- Statistical Interpretation
+- Python Programming
 
 ---
 
+## Future Enhancements
 
+Potential improvements for this project include:
 
+- Customer Segmentation using Clustering Techniques
+- Sales Forecasting and Time-Series Analysis
+- Interactive Dashboard Development using Power BI or Tableau
+- Deployment of Insights through Web Applications
 
+---
 
+## Conclusion
 
+This project highlights the importance of data analysis in understanding customer behavior and business performance. Through structured data exploration and visualization, valuable insights were extracted from raw transactional data, demonstrating practical data science skills applicable to real-world business scenarios.
+
+---
+
+## Author
+
+**Haziqa Shakir**  
+Data Science Student | Python & Data Analytics Enthusiast
+
+This project was completed as part of a Data Science Internship to strengthen practical skills in data analysis, visualization, and business intelligence.
